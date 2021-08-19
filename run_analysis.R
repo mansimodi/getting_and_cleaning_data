@@ -7,7 +7,7 @@ install.packages("reshape2")
 library(tidyverse)
 library(reshape2)
 # Change the directory to test folder to read the test data
-setwd("/Users/mm991t/Desktop/ds_coursera_cert/get_and_clean_data/Getcleandata/UCI HAR Dataset/test/")
+setwd("/Users/mansimodi/Desktop/ds_coursera_cert/get_and_clean_data/Getcleandata/UCI HAR Dataset/test/")
 
 x_test <- read.table("X_test.txt")
 head(x_test)
