@@ -12,6 +12,7 @@ setwd("/Users/mansimodi/Desktop/ds_coursera_cert/get_and_clean_data/Getcleandata
 x_test <- read.table("X_test.txt")
 head(x_test)
 y_test <- read.table("Y_test.txt")
+head(y_test)
 subject_test <- read.table("subject_test.txt")
 
 # Change the directory to train folder to read the train data
