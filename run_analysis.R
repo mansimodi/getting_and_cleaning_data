@@ -78,4 +78,4 @@ cleaned_data$activ <- NULL
 cleaned_data_melt <- melt(cleaned_data, id = c("subject", "activity"))
 cleaned_data_melt_cast <- dcast(cleaned_data_melt, subject +  activity~ variable, mean)
 write.table(cleaned_data_melt_cast, file = "cleanedtxt.txt", row.names= FALSE)
-getwd()
+
